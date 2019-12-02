@@ -69,12 +69,12 @@ h1 {
   font-weight: 800;
   padding: .25em 0 .4em;
   margin: 0;
-  max-width: 25rem;
   width: 100%;
   position: absolute;
   z-index: 2;
   opacity: 70%;
   background-color: #8E8E8E;
+  display: block;
 }
 
 .nav a {
@@ -96,9 +96,103 @@ h1 {
 
 main {
   margin: .2em;
+  padding: 0 .5em;
 }
 
 ul,
 p {
   font-family: 'Darker Grotesque', sans-serif;
+  font-size: 1.5em;
+}
+
+
+.welcome {
+  margin: 1rem 0;
+}
+
+.img-flex {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.services {
+  margin: 1.5rem 0;
+}
+
+.footer {
+  display: inline-block;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 1rem .5rem;
+  width: 100%;
+  background-color: #8E8E8E;
+  border-top: 3px solid #FE5757;
+
+  color: #FBF8F0;
+}
+
+.footer h2 {
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+}
+
+.footer ul {
+  margin: 0;
+  padding-left: 0;
+  list-style-type: none;
+}
+
+.footer a {
+  color: #FE5757;
+  text-decoration: none;
+  color: #fff;
+}
+
+.btn-footer {
+  font-size: 1.125rem;
+  padding: .4em .75em;
+  margin: 0;
+  border-radius: 8px;
+  border: 3px solid #333;
+  background: #333;
+  display: inline-block;
+}
+
+.btn-small {
+  font-size: .875rem;
+}
+
+.btn-small:hover {
+  color: #FE5757;
+}
+
+.links {
+  display: block;
+  margin: 1rem 0;
+}
+
+.social {
+  display: flex;
+  margin: 0;
+}
+
+.social > li {
+  margin: 0 .25em;
+  width: 2.5em;
+}
+
+.copyright {
+  width: 100%;
+  text-align: center;
+}
+
+
+@media 38 {
+  .social {
+    margin-left: auto;
+    display: flex;
+  }
 }
