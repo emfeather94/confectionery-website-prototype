@@ -10,8 +10,6 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
-  /*font-family: 'Chewy', cursive;*/
-  /*font-family: 'Montserrat Alternates', sans-serif;*/
   font: normal 100%/1.3 Montserrat Alternates, sans-serif;
 }
 
@@ -128,7 +126,6 @@ p {
   font-family: 'Darker Grotesque', sans-serif;
   font-size: 1.5em;
 }
-
 
 .welcome {
   margin: .2em .2em 2.55em;
@@ -256,6 +253,14 @@ p {
 
 cite {
   color: #FE5757;
+}
+
+.img-footer:nth-child(2) {
+  display: none;
+}
+
+.img-footer:nth-child(3) {
+  display: none;
 }
 
 .footer {
@@ -399,12 +404,12 @@ cite {
 @media only screen and (min-width: 60em) {
 
   html {
-    font-size: 110%;
+    font-size: 120%;
     line-height: 1.4;
   }
 
   h1 {
-    font-size: 2.25rem;
+    font-size: 2rem;
   }
 
   .img-logo {
@@ -418,12 +423,12 @@ cite {
   }
 
   .nav a {
-    padding: .1em 1em .25em;
+    padding: .1em 1.25em .25em;
   }
 
   .nav a:hover {
     color: #FA2828;
-    padding: .1em 1em .25em;
+    padding: .1em 1.25em .25em;
   }
 
   .img-header:nth-child(2) {
@@ -486,8 +491,23 @@ cite {
     margin: .6rem .5rem 1em;
   }
 
+  .img-person {
+    display: block;
+    width: 100%;
+    max-width: 10em;
+    vertical-align: middle;
+  }
+  .bobby {
+    display: inline-block;
+    width: 100%;
+    max-width: 15em;
+    vertical-align: middle;
+    margin: 0;
+  }
+
   .bobby p {
     margin: 1rem 10rem;
+    display: inline-block;
   }
 
   .josie p {
@@ -498,4 +518,20 @@ cite {
     margin: 1rem 10rem;
   }
 
+  .img-footer:nth-child(2) {
+    display: inline;
+  }
+
+  .img-footer:nth-child(3) {
+    display: inline;
+  }
+
+  .footer-imgs {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .img-footer {
+    width: 33.33%;
+  }
 }
