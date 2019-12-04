@@ -296,8 +296,7 @@ cite {
   padding: .4em .75em;
   margin: 0;
   border-radius: 8px;
-  border: 3px solid #333;
-  background: #333;
+  border: 3px solid #fff;
   display: inline-block;
 }
 
@@ -419,16 +418,16 @@ cite {
   }
 
   .nav {
-    font-size: 1.75rem;
+    font-size: 1.5rem;
   }
 
   .nav a {
-    padding: .1em 1.25em .25em;
+    padding: .75em 1.25em .25em;
   }
 
   .nav a:hover {
     color: #FA2828;
-    padding: .1em 1.25em .25em;
+    padding: .75em 1.25em .25em;
   }
 
   .img-header:nth-child(2) {
@@ -482,13 +481,28 @@ cite {
     margin-bottom: 1rem;
   }
 
+  .services-content {
+    text-align: center;
+  }
+
+  .offers {
+    display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+    margin: 0 2rem;
+  }
+
   .catering {
     padding: .75em 0;
+    display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+    margin: .75rem 2rem;
   }
 
   .catering p {
     font-size: 1.5rem;
-    margin: .6rem .5rem 1em;
+    margin: .5rem .5rem .925em;
   }
 
   .img-person {
@@ -497,25 +511,51 @@ cite {
     max-width: 10em;
     vertical-align: middle;
   }
+
+  .testimonials-content {
+    text-align: center;
+  }
+
   .bobby {
     display: inline-block;
     width: 100%;
     max-width: 15em;
     vertical-align: middle;
-    margin: 0;
+    margin: 1rem 0;
   }
 
   .bobby p {
-    margin: 1rem 10rem;
+    margin: 0;
     display: inline-block;
+    font-size: 1.3rem;
+  }
+
+  .josie {
+    display: inline-block;
+    width: 100%;
+    max-width: 15em;
+    vertical-align: middle;
+    margin: 1rem 1.25rem;
   }
 
   .josie p {
-    margin: 1rem 10rem;
+    margin: 0;
+    display: inline-block;
+    font-size: 1.3rem;
+  }
+
+  .monster {
+    display: inline-block;
+    width: 100%;
+    max-width: 15em;
+    vertical-align: middle;
+    margin: 1rem 0;
   }
 
   .monster p {
-    margin: 1rem 10rem;
+    margin: 0;
+    display: inline-block;
+    font-size: 1.3rem;
   }
 
   .img-footer:nth-child(2) {
@@ -534,4 +574,11 @@ cite {
   .img-footer {
     width: 33.33%;
   }
+
 }
+
+@media only screen and (min-width: 90em) {
+
+  html {
+    font-size: 130%;
+  }
