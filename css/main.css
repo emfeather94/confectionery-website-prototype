@@ -79,7 +79,7 @@ h1 {
   width: 100%;
   position: absolute;
   z-index: 2;
-  opacity: .7;
+  opacity: .75;
   background-color: #8e8e8e;
   display: block;
 }
@@ -301,8 +301,9 @@ cite {
   font-size: .875rem;
 }
 
-.btn-small:hover {
-  color: #fe5757;
+.btn-footer:hover {
+  background-color: #fe5757;
+  border: 3px solid #fe5757;
 }
 
 .links {
@@ -318,6 +319,7 @@ cite {
 .copyright {
   width: 100%;
   text-align: center;
+  padding-left: .5rem;
 }
 
 .social {
@@ -388,6 +390,23 @@ cite {
 
   .monster p {
     margin: 1rem 10rem;
+  }
+
+  .footer {
+    position: relative;
+  }
+
+  .social {
+    position: absolute;
+    top:10px;
+    right: 10px;
+  }
+
+  .copyright {
+    width: 100%;
+    text-align: center;
+    padding-left: .5rem;
+    display: inline-block;
   }
 
 }
@@ -565,6 +584,8 @@ cite {
   .img-footer {
     width: 33.33%;
   }
+
+
 
 }
 
