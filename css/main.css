@@ -10,7 +10,7 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
-  font: normal 100%/1.3 Montserrat Alternates, sans-serif;
+  font: normal 100%/1.3 "Montserrat Alternates", sans-serif;
 }
 
 *, *::before, *::after {
@@ -19,7 +19,7 @@ html {
 
 body {
   margin: 0;
-  background-color: #FBF8F0;
+  background-color: #fbf8f0;
   width: 100%;
 }
 
@@ -40,8 +40,8 @@ header {
 }
 
 h1 {
-  background-color: #FBF8F0;
-  color: #FE5757;
+  background-color: #fbf8f0;
+  color: #fe5757;
   text-align: center;
   padding: .1em .5em;
   margin: .5em 0;
@@ -79,8 +79,8 @@ h1 {
   width: 100%;
   position: absolute;
   z-index: 2;
-  opacity: 70%;
-  background-color: #8E8E8E;
+  opacity: .7;
+  background-color: #8e8e8e;
   display: block;
 }
 
@@ -96,7 +96,7 @@ h1 {
 }
 
 .nav a:hover {
-  color: #FA2828;
+  color: #fa2828;
   padding: .1em .35em .25em;
   text-align: center;
 }
@@ -130,7 +130,7 @@ p {
 .welcome {
   margin: .2em .2em 2.55em;
   padding: 0 .5em;
-  border-top: 3px solid #FE5757;
+  border-top: 3px solid #fe5757;
 }
 
 .welcome p {
@@ -140,11 +140,12 @@ p {
 .img-flex {
   display: block;
   margin: 1.5rem auto;
-  width: 50%;
+  width: 100%;
+  max-width: 18rem;
 }
 
 .line {
-  border: 2.5px solid #8E8E8E;
+  border: 2.5px solid #8e8e8e;
   margin: 0 4rem;
 }
 
@@ -154,7 +155,7 @@ p {
 }
 
 .offers {
-  border: 3px solid #8E8E8E;
+  border: 3px solid #8e8e8e;
   border-radius: 8px;
   padding: .75em;
   margin: 1em auto;
@@ -165,7 +166,7 @@ p {
 
 .offers a {
   text-decoration: none;
-  color: #FE5757;
+  color: #fe5757;
   font-size: 1.75rem;
   font-weight: bold;
 }
@@ -178,7 +179,7 @@ p {
 }
 
 .offers a:hover {
-  color: #8E8E8E;
+  color: #8e8e8e;
 }
 
 .offers li {
@@ -186,7 +187,7 @@ p {
 }
 
 .catering {
-  border: 3px solid #8E8E8E;
+  border: 3px solid #8e8e8e;
   border-radius: 8px;
   padding: .75em;
   margin: 1em auto;
@@ -214,22 +215,21 @@ p {
 
 .catering-btn {
   text-align: center;
-  padding: 0 0 1em;
   font-size: 1rem;
   padding: .4em .75em;
   margin: 1.2rem 3rem 1rem;
   border-radius: 8px;
-  border: 3px solid #FE5757;
-  background: #FE5757;
+  border: 3px solid #fe5757;
+  background: #fe5757;
 }
 
 .catering-btn:hover {
-  background-color: #8E8E8E;
-  border: 3px solid #8E8E8E;
+  background-color: #8e8e8e;
+  border: 3px solid #8e8e8e;
 }
 
 .grey-line {
-  border-top: 3px solid #FE5757;
+  border-top: 3px solid #fe5757;
   margin: 1rem .5rem;;
 }
 
@@ -252,7 +252,7 @@ p {
 }
 
 cite {
-  color: #FE5757;
+  color: #fe5757;
 }
 
 .img-footer:nth-child(2) {
@@ -270,8 +270,8 @@ cite {
   align-items: center;
   padding: 1rem .75rem;
   width: 100%;
-  background-color: #8E8E8E;
-  color: #FBF8F0;
+  background-color: #8e8e8e;
+  color: #fbf8f0;
 }
 
 .footer h2 {
@@ -286,7 +286,7 @@ cite {
 }
 
 .footer a {
-  color: #FE5757;
+  color: #fe5757;
   text-decoration: none;
   color: #fff;
 }
@@ -305,17 +305,12 @@ cite {
 }
 
 .btn-small:hover {
-  color: #FE5757;
+  color: #fe5757;
 }
 
 .links {
   display: block;
   margin: 1rem 0;
-}
-
-.social {
-  display: flex;
-  margin: 0;
 }
 
 .social > li {
@@ -368,7 +363,7 @@ cite {
   }
 
   .nav a:hover {
-    color: #FA2828;
+    color: #fa2828;
     padding: .1em .4em .25em;
     text-align: center;
   }
@@ -404,7 +399,7 @@ cite {
 
   html {
     font-size: 120%;
-    line-height: 1.4;
+    line-height: 1.5;
   }
 
   h1 {
@@ -426,7 +421,7 @@ cite {
   }
 
   .nav a:hover {
-    color: #FA2828;
+    color: #fa2828;
     padding: .75em 1.25em .25em;
   }
 
@@ -582,3 +577,5 @@ cite {
   html {
     font-size: 130%;
   }
+
+}
